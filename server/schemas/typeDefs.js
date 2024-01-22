@@ -1,5 +1,5 @@
 const { gql } = require('apollo-server-express');
-const e = require('express');
+
 
 const typeDefs = gql `
 type User {
@@ -36,4 +36,4 @@ type Mutation {
     }
 `;
 
-export default typeDefs;
+module.exports = typeDefs;
